@@ -1,0 +1,156 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+stokmanager
+</name>
+</assembly>
+<members>
+<member name="P:stokmanager.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:stokmanager.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:stokmanager.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:stokmanager.manageDataSet.detailDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:stokmanager.manageDataSet.kurangDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:stokmanager.manageDataSet.kwlnstokDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:stokmanager.manageDataSet.staffDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:stokmanager.manageDataSet.stokDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:stokmanager.manageDataSet.tambahDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:stokmanager.manageDataSet.detailRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:stokmanager.manageDataSet.kurangRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:stokmanager.manageDataSet.kwlnstokRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:stokmanager.manageDataSet.staffRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:stokmanager.manageDataSet.stokRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:stokmanager.manageDataSet.tambahRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:stokmanager.manageDataSet.detailRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:stokmanager.manageDataSet.kurangRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:stokmanager.manageDataSet.kwlnstokRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:stokmanager.manageDataSet.staffRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:stokmanager.manageDataSet.stokRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:stokmanager.manageDataSet.tambahRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:stokmanager.manageDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:stokmanager.manageDataSetTableAdapters.detailTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:stokmanager.manageDataSetTableAdapters.kurangTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:stokmanager.manageDataSetTableAdapters.kwlnstokTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:stokmanager.manageDataSetTableAdapters.staffTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:stokmanager.manageDataSetTableAdapters.stokTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:stokmanager.manageDataSetTableAdapters.tambahTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:stokmanager.manageDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(stokmanager.manageDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:stokmanager.manageDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(stokmanager.manageDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:stokmanager.manageDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(stokmanager.manageDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:stokmanager.manageDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:stokmanager.manageDataSetTableAdapters.TableAdapterManager.UpdateAll(stokmanager.manageDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:stokmanager.manageDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:stokmanager.manageDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:stokmanager.manageDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
